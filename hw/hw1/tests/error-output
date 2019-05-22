@@ -1,0 +1,4 @@
+[Token: char]
+[Token: Identifier: a]
+[Token: Illegal symbol 'cd']
+[Token: ;]

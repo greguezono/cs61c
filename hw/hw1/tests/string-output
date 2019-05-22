@@ -1,0 +1,6 @@
+[Token: char]
+[Token: *]
+[Token: Identifier: greeting]
+[Token: =]
+[Token: String: Hel"lo]
+[Token: ;]

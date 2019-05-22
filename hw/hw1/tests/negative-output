@@ -1,0 +1,5 @@
+[Token: int]
+[Token: Identifier: a]
+[Token: =]
+[Token: 2147483648]
+[Token: ;]

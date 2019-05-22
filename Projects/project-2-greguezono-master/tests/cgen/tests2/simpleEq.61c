@@ -1,0 +1,21 @@
+#include "../../../cgen-lib/print.h"
+
+int main () {
+  PrintBool (!(0 == 0));
+  PrintBool (0 == 2);
+  PrintBool (1 == 2);
+  PrintBool (!(3 == 3));
+  PrintBool (true == false);
+  PrintBool (!(true == true));
+  PrintBool (false == true);
+  PrintBool (!(false == false));
+  PrintBool (!('d' == 'd'));
+  PrintBool ('d' == 'c');
+  PrintBool ('d' == '\0');
+  PrintBool (!('\0' == '\0'));
+  PrintBool (!("str" == "str"));
+  char *c = "1str" + 1;
+  char *d = "2str" + 1;
+  PrintBool (c == d);
+  return 0;
+}

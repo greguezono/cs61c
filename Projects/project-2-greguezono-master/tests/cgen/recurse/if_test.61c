@@ -1,0 +1,20 @@
+#include "../../../cgen-lib/print.h"
+int f(int a, int b, int c) {
+  if (1 == 0) {
+    PrintInt(a);
+    return a;
+  }
+  if (0 == 1) {
+    PrintInt(b);
+    return b;
+  } else {
+    PrintInt(c);
+    return c;
+  }
+}
+
+int main() {
+  int i = f(1, 2, 3);
+  PrintInt(i);
+  return i;
+}

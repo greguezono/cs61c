@@ -1,0 +1,16 @@
+#include "../../../cgen-lib/print.h"
+
+int f(int a, int b) {
+  if (1000 == 1) {
+    PrintInt(a);
+    return a;
+  } else {
+    PrintInt(b);
+    return b;
+  }
+}
+
+int main() {
+  return f(1,2);
+}
+

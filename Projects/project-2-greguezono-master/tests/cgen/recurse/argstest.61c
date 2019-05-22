@@ -1,0 +1,15 @@
+#include "../../../cgen-lib/print.h"
+
+int f(int a, int b, int c, int d) {
+  int i = a + b;
+  PrintInt(i);
+  int j = c - d;
+  PrintInt(j);
+  return i * j;
+}
+
+int main() {
+  int a = f(1,2,3,4);
+  PrintInt(a);
+  return a;
+}

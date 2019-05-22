@@ -1,0 +1,15 @@
+#include "../../../cgen-lib/print.h"
+
+int f(int x) {
+  if (x == 0) {
+    PrintInt (x);
+    return x;
+  } else {
+    PrintInt (x);
+    return x + f(x-1);
+  }
+}
+
+int main() {
+  return f(1);
+}

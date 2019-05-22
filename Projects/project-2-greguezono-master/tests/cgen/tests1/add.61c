@@ -1,0 +1,8 @@
+#include "../../../cgen-lib/print.h"
+
+int main() {
+  int i = 4 + 2;
+  PrintInt (i);
+  return 4 + 2;
+
+}

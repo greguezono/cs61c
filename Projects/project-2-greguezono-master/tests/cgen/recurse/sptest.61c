@@ -1,0 +1,49 @@
+#include "../../../cgen-lib/print.h"
+
+int ago () {
+  for (;;) {
+    int score;
+    for (;;) {
+      int score;
+      for (;;) {
+        int score;
+        for (;;) {
+          int score;
+          for (;;) {
+            int years;
+            for (;;) {
+              int years;
+              for (;;) {
+                int years;
+                for (;;) {
+                  int years;
+                  for (;;) {
+                    int years;
+                    for (;;) {
+                      int years;
+                      for (;;) {
+			int years = 7;
+                        return years;
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  int ago;
+  return 0;
+}
+
+int main () {
+  int x = 4;
+  int *y = &x;
+  PrintInt (ago ());
+  PrintInt (x);
+  PrintBool (!(*y == x));
+  return 0;
+}

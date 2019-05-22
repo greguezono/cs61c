@@ -1,0 +1,5 @@
+[Token: char]
+[Token: Identifier: b]
+[Token: =]
+[Token: Illegal symbol 'ac']
+[Token: ;]
